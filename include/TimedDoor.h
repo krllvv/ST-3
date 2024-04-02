@@ -1,7 +1,6 @@
-// Copyright 2021 GHA Test Team
+// Copyright 2024 Kirillov Maxim
 
-#ifndef INCLUDE_TIMEDDOOR_H_
-#define INCLUDE_TIMEDDOOR_H_
+#pragma once
 
 class DoorTimerAdapter;
 class Timer;
@@ -48,5 +47,3 @@ class Timer {
  public:
   void tregister(int, TimerClient*);
 };
-
-#endif  // INCLUDE_TIMEDDOOR_H_
