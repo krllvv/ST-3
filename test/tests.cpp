@@ -2,6 +2,7 @@
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
 #include <cstdint>
+#include <chrono> // NOLINT [build/c++11]
 #include "../include/TimedDoor.h"
 
 
